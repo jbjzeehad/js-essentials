@@ -122,3 +122,45 @@ console.log(fruits);
 const resul7 = fruits.map((f) => `${f} ->`);
 console.log(resul7);
 console.log(fruits);
+
+//........................................
+
+//reduce()
+
+const numbers = [1, 2, 3, 4, 5];
+
+// const resul8 =  numbers.reduce((total, currValue)=> total+currValue , defValue)
+
+const resul8 = numbers.reduce((total, currValue) => total + currValue, 0)
+
+console.log(resul8);
+
+//.......................................
+
+//for..of
+
+const numbers2 = [1, 2, 3, 4, 5];
+
+for (num of numbers2) {
+    console.log(num);
+}
+
+const name = 'Jubayer';
+
+for (char of name) {
+    console.log(char);
+}
+
+//....................................
+
+//for..in (object)
+
+const language = {
+    name: 'JavaScript',
+    year: 1997,
+    creator: 'Brendan'
+};
+
+for (propertyKey in language) {
+    console.log(language[propertyKey]);
+}
