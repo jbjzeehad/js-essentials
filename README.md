@@ -1,1 +1,1 @@
-# js-lws-crash-course
+# js-crash-course
