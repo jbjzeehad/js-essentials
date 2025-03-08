@@ -1,1 +1,1 @@
-# js-crash-course
+# js-essentials
