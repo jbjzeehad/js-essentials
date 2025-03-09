@@ -5,21 +5,22 @@
  *
  */
 
-function hello() { //regular function
+function hello() {
+  //regular function
 
-    console.log("Hello world");
+  console.log("Hello world");
 
-    //return undefined;
-
-};
+  //return undefined;
+}
 
 let msg = hello();
 console.log(msg);
 
 //......................................
 
-const helo = function () { //function expression
-    console.log("Hello Bangladesh");
+const helo = function () {
+  //function expression
+  console.log("Hello Bangladesh");
 };
 
 let msg2 = helo();
@@ -27,8 +28,9 @@ console.log(msg2);
 
 //......................................
 
-const hello2 = function hello() { //named function expression
-    console.log("Hello Asia");
+const hello2 = function hello() {
+  //named function expression
+  console.log("Hello Asia");
 };
 
 let msg3 = hello2();
@@ -36,10 +38,10 @@ console.log(msg3);
 
 //.....................................
 
-const hello3 = () => { //array function
-    console.log("Hello Europe");
-
-}
+const hello3 = () => {
+  //arrow function
+  console.log("Hello Europe");
+};
 const hello4 = () => console.log("Hello EuroAsia"); //inline return
 
 const hello5 = () => 5; //without return keyword
@@ -47,15 +49,15 @@ const hello5 = () => 5; //without return keyword
 const hello6 = (a, b) => a + b;
 
 const hello7 = () => ({
-    a: 5,
-    b: 6,
+  a: 5,
+  b: 6,
 });
 
 const hello8 = () => {
-    return {
-        a: 7,
-        b: 8,
-    }
+  return {
+    a: 7,
+    b: 8,
+  };
 };
 
 let msg4 = hello3();
@@ -73,26 +75,27 @@ console.log(hello8());
 
 //...................................
 
-function gelo() { //anonymous function
-    return function () {
-        console.log("Hello Japan");
-    };
+function gelo() {
+  //anonymous function
+  return function () {
+    console.log("Hello Japan");
+  };
 }
 
 function gelo2() {
-    return () => {
-        console.log("Hello China");
-    };
+  return () => {
+    console.log("Hello China");
+  };
 }
 
 function gelo3() {
-    return () => console.log("Hello Bhutan");
+  return () => console.log("Hello Bhutan");
 }
 
 function gelo4() {
-    return () => {
-        return "Hello Thailand";
-    };
+  return () => {
+    return "Hello Thailand";
+  };
 }
 
 console.log(gelo()());
