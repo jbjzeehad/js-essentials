@@ -20,6 +20,11 @@
 
 > JavaScript is an event-driven programming language.<br>
 
-`🔹 event handlers`
+`🔹 primitive & reference`
 
-> JavaScript is an event-driven programming language.<br>
+> `Primitive` string, number, boolean.
+> `reference` object, array. <br>
+
+`🔹 array methods`
+
+> `find()`, `findIndex()`, `filter()`, `slice()`, `splice()`, `concat()`, `push()`, `map()`, `reduce()`, `forEach()`, `for...of`, `for...in`<br>
