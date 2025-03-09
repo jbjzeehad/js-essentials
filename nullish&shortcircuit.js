@@ -3,10 +3,9 @@
  * 1. file name : add .js extension
  * 2. file run : keyboard shortcut ctrl+F5
  *
-*/
+ */
 
 //Short Circuit Conditionals: || ?? &&
-
 
 let lang3 = "Java";
 
@@ -26,8 +25,11 @@ let lang6 = false;
 
 console.log(lang6 && "Java False");
 
-//.................................
+let lang7 = "bd";
 
+console.log(lang7 && "sql");
+
+//.................................
 
 //Nullish Coalescing Operator
 
@@ -38,7 +40,6 @@ let lang = null;
 console.log(lang ?? "Javascript");
 
 //.................................
-
 
 let lang2 = "Python";
 
